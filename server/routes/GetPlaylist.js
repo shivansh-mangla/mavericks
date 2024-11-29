@@ -8,6 +8,9 @@ const playlists = {
     {"title": "Knowledge Gate One shot", "link": "https://www.youtube.com/embed/MdG0Vw9f1A4?si=r0sTQzSaR1oNPhp9"}
   ],
   "Operating Systems": [
+    {"title": "Gate Smashers playlist", "link": "https://www.youtube.com/embed/videoseries?si=r_ESREXGvz8J9Y_K&amp;list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"},
+    {"title": "Love Babbar Placement Series", "link": "https://www.youtube.com/embed/videoseries?si=6Soc3gst_BDSV_WF&amp;list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG"},
+    {"title": "Neso Academy playlist", "link": "https://www.youtube.com/embed/videoseries?si=fy9ngJNs7i7vEtEq&amp;list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"}
   ],
   "Software Engineering": [
   ],

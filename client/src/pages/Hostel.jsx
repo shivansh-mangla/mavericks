@@ -40,7 +40,6 @@ function Hostel() {
             onChange={(e) => setSelectedHostel(e.target.value)}
           >
             <option value="">--Select a hostel--</option>
-            <option value="E">Hostel O (Vyom Hall)</option>
             <option value="O">Hostel O (Vyom Hall)</option>
             <option value="B">Hostel B (Amritam Hall)</option>
             <option value="D">Hostel D (Neeram Hall)</option>
@@ -56,8 +55,47 @@ function Hostel() {
         <div className="hostelData">
           <h2>Information for {selectedHostel} Hostel</h2>
           <iframe src= {hostelData.location} width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          <h3>Warden Name: {hostelData.wardenName}</h3>
-          <h3>Warden Contact: <a href={"tel:+" + hostelData.wardenContact}>{hostelData.wardenContact}</a></h3>
+          
+          <table
+            style={{
+              width: "100%",
+              borderCollapse: "collapse",
+              margin: "20px 0",
+            }}
+          >
+            <thead>
+              <tr>
+                <th style={{ border: "1px solid #ddd", padding: "8px", backgroundColor: "#f2f2f2" }}>Role</th>
+                <th style={{ border: "1px solid #ddd", padding: "8px", backgroundColor: "#f2f2f2" }}>Name</th>
+                <th style={{ border: "1px solid #ddd", padding: "8px", backgroundColor: "#f2f2f2" }}>Contact</th>
+                <th style={{ border: "1px solid #ddd", padding: "8px", backgroundColor: "#f2f2f2" }}>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>Warden</td>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>{hostelData.wardenName}</td>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>
+                  <a href={"tel:+" + hostelData.wardenContact}>{hostelData.wardenContact}</a>
+                </td>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>
+                  <a href={"mailto:" + hostelData.wardenMail}>{hostelData.wardenMail}</a>
+                </td>
+              </tr>
+              <tr>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>Caretaker</td>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>{hostelData.caretakerName}</td>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>
+                  <a href={"tel:+" + hostelData.caretakerContact}>{hostelData.caretakerContact}</a>
+                </td>
+                <td style={{ border: "1px solid #ddd", padding: "8px" }}>
+                  <a href={"mailto:" + hostelData.caretakerMail}>{hostelData.caretakerMail}</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
           <h3>Mess menu-</h3>
           <img src={hostelData.messMenu} />
         </div>

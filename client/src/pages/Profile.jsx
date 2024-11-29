@@ -23,13 +23,24 @@ function Profile(){
     <Navbar/>
     <div className="profileDiv">
       <h1>User Profile</h1>
-      <div className="profilePicDiv">
-        <img src={profilePhoto} alt="profilePic" className="profilePic"/>
+      <div className="pmain">
+        <div className="profilePicDiv">
+          <img src={profilePhoto} alt="profilePic" className="profilePic"/>
+        </div>
+        <h1>{username}</h1>
+        <h4>Thapar Institute of Engineering and Technology</h4>
+        <div className="profileInfoDiv">
+          <h3>
+            Age: <input type="text" value={`${age} years old`} disabled />
+          </h3>
+          <h3>
+            School: <input type="text" value={school} disabled />
+          </h3>
+          <h3>
+            Join Date: <input type="text" value={joinDate} disabled />
+          </h3>
+        </div>
       </div>
-      <h3>Username: {username}</h3>
-      <h3>Age: {age}</h3>
-      <h3>School: {school}</h3>
-      <h3>Join Date: {joinDate}</h3>
     </div>
     </>
   );

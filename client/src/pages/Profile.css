@@ -10,6 +10,23 @@
   margin-bottom: 100px;
 }
 
+.pmain{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(244, 242, 238);
+  border-radius: 30px;
+  padding: 30px;
+  border: 1px gray solid;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  gap: 20px;
+}
+
+.pmain h4{
+  color: gray;
+}
+
 .profilePic{
   width: 100%;
   height: 100%;
@@ -21,4 +38,28 @@
   overflow: hidden;
   width: 200px;
   aspect-ratio: 0.9;
+}
+
+.profileInfoDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  gap: 30px;
+}
+
+.profileInfoDiv input{
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 17px;
+}
+
+.profileInfoDiv h3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
 }

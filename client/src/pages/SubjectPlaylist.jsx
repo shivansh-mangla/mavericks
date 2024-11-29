@@ -43,10 +43,8 @@ function SubjectPlaylist() {
           >
             <option value="">--Select a Subject--</option>
             <option value="Data Structures And Algorithms">Data Structures And Algorithms</option>
-            <option value="Physics">Physics</option>
-            <option value="Chemistry">Chemistry</option>
-            <option value="Biology">Biology</option>
-            <option value="Computer Science">Computer Science</option>
+            <option value="Operating Systems">Operating Systems</option>
+            <option value="Operating Systems">Applied Chemistry</option>
           </select>
         </div>
         <div>

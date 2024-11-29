@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-evenly;
   gap: 20px;
+  padding: 30px;
 }
 
 .HostelInfoMainDiv form{
@@ -22,4 +23,11 @@
   border: 1px black solid;
   border-radius: 10px;
   background-color: aquamarine;
+}
+
+.hostelData{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }

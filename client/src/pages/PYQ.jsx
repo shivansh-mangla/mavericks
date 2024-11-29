@@ -43,10 +43,8 @@ function PYQ() {
           >
             <option value="">--Select a Subject--</option>
             <option value="Data Structures And Algorithms">Data Structures And Algorithms</option>
-            <option value="Physics">Physics</option>
-            <option value="Chemistry">Chemistry</option>
-            <option value="Biology">Biology</option>
-            <option value="Computer Science">Computer Science</option>
+            <option value="CAO">Computer Architecture and Organization</option>
+            <option value="DAA">Design and Analysis of Algorithms</option>
           </select>
         </div>
         <div>

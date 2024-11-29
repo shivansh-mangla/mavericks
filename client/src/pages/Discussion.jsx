@@ -54,7 +54,7 @@ function Discussion() {
           <h2>Got A Question? Ask it here...</h2>
 
           <form onSubmit={handleSubmit}>
-            <label>Enter your doubt</label>
+            <label>Enter your doubt: </label>
             <input
               type="text"
               value={question}

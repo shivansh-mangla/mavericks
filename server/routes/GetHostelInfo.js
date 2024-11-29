@@ -141,7 +141,7 @@ const hostels = {
           "caretakerName": "Mr. Navjot Sharma, Mr. Jaspreet Singh",
           "caretakerContact": "9056080375",
           "caretakerMail": "caretaker.o@thapar.edu",
-          "messMenu": ""
+          "messMenu": "https://lh3.googleusercontent.com/pw/AP1GczMYU0xbkkP0ovaInEPUllUbMepWhsO48UbX_rJChE7jFWdEPchYxESDBIGnTyNaqw_ssji9gzShMnIDF0of3ACsIFfhFbNpPbQ9MlghM7D2SXRLX4LvHrn7HBWpunupZ1prGyzFrMRvH4uPmI_vuZE=w659-h878-s-no-gm"
       },
       "Q": {
           "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d750.9075987755764!2d76.367555!3d30.351876999999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391029005ea81c7b%3A0x80eafaeac369d0e1!2sHostel%20Q!5e1!3m2!1sen!2sin!4v1732728958258!5m2!1sen!2sin",
