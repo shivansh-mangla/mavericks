@@ -1,0 +1,24 @@
+.profileDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 500px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.profilePic{
+  width: 100%;
+  height: 100%;
+}
+
+.profilePicDiv{
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  width: 200px;
+  aspect-ratio: 0.9;
+}

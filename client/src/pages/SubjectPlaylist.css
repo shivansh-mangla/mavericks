@@ -1,0 +1,28 @@
+.subjectPlaylist{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: aquamarine; */
+  align-items: center;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 20px;
+  margin-top: 200px;
+}
+
+.subjectPlaylist form{
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subjectPlaylist form button{
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

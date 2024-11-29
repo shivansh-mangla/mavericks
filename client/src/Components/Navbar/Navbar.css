@@ -1,0 +1,138 @@
+
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Navbar Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 60px;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    background-color: transparent; /* Initially transparent */
+  }
+  
+  .sticky-navbar {
+    background-color: #0056b3; /* Blue color when scrolled */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 200px; /* Bigger logo */
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  
+  .nav-item {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    color: #f0f0f0;
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+    width: 240px;
+    padding: 15px;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu ul li {
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-menu ul li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .menu-icon {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .nav-links.open {
+    display: block;
+  }
+
+  .navbar{
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #0056b3;
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      width: 220px;
+      border-radius: 8px;
+      padding: 20px;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-item {
+      color: white;
+      margin: 10px 0;
+    }
+
+
+    #contact {
+        padding: 50px;
+        background-color: #eaeaea;
+        text-align: center;
+      }
+      
+  }
+  

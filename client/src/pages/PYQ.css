@@ -1,0 +1,42 @@
+.subjectPYQ{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.subjectPYQ form{
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.subjectPYQ form button{
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+.PYQData{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.PYQDrive{
+  width: 100%;
+  min-height: 100vh;
+  border: none;
+  background-color: rgb(47, 47, 47);
+}
